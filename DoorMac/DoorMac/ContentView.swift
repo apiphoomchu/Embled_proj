@@ -1,5 +1,5 @@
 import SwiftUI
-// ContentView.swift
+
 struct ContentView: View {
     @StateObject private var serialMonitor = SerialMonitor()
     
