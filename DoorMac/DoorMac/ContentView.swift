@@ -115,10 +115,3 @@ struct SensorGaugesView: View {
         .padding()
     }
 }
-
-// Preview Provider
-struct SensorGaugesView_Previews: PreviewProvider {
-    static var previews: some View {
-        SensorGaugesView(serialMonitor: SerialMonitor())
-    }
-}
